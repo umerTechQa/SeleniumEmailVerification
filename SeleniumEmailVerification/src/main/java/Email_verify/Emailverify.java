@@ -51,7 +51,7 @@ String apiKey = "dLDarfa54fDArRgUZ7LaIO7oG6ErBX3e";
    
    System.out.println(firstCode.value());//"323232"
   String abccode= firstCode.value();
-   System.out.println(abccode);
+   System.out.println( "The otp is:" +abccode);
    assertNotNull(message);
    //To verify the Email Subject of the email
    assertEquals("QA Engineer", message.subject());
