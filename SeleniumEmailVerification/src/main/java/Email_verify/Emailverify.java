@@ -50,6 +50,7 @@ String apiKey = "dLDarfa54fDArRgUZ7LaIO7oG6ErBX3e";
    assertNotNull(message);
    //To verify the Email Subject of the email
    assertEquals("Engineer", message.subject());
+ System.out.println("Subject");
    
 }
 
