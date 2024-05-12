@@ -3,19 +3,14 @@ package Email_verify;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
-
 import java.io.IOException;
-
 import org.testng.annotations.Test;
-
 import com.mailosaur.MailosaurClient;
 import com.mailosaur.MailosaurException;
 import com.mailosaur.models.Code;
 import com.mailosaur.models.Message;
 import com.mailosaur.models.MessageSearchParams;
 import com.mailosaur.models.SearchCriteria;
-
-
 
 public class Emailverify{
  
@@ -54,7 +49,7 @@ String apiKey = "dLDarfa54fDArRgUZ7LaIO7oG6ErBX3e";
   
    assertNotNull(message);
    //To verify the Email Subject of the email
-   assertEquals("QA Engineer", message.subject());
+   assertEquals("Engineer", message.subject());
    
 }
 
